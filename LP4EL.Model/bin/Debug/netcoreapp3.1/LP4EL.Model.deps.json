@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LP4EL.Model/1.0.0": {
+        "runtime": {
+          "LP4EL.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LP4EL.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
