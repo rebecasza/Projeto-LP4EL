@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj": {}
+    "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj": {
+    "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj",
         "projectName": "LP4EL.Utils",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Utils\\obj\\",
+        "projectPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj",
+        "packagesPath": "C:\\Users\\Larissa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Larissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             }
           },
           "imports": [
@@ -58,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

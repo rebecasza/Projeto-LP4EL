@@ -17,6 +17,10 @@ namespace LP4EL.Data.Mapping
 			builder.Property(t => t.Login);
 			builder.Property(t => t.Hash);
 			builder.Property(t => t.Salt);
+
 		}
+
+
+
 	}
 }

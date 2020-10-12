@@ -7,3 +7,12 @@ C:\Users\becas\Desktop\LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.Ass
 C:\Users\becas\Desktop\LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.AssemblyInfo.cs
 C:\Users\becas\Desktop\LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.dll
 C:\Users\becas\Desktop\LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.pdb
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.csprojAssemblyReference.cache
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.AssemblyInfoInputs.cache
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.AssemblyInfo.cs
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.dll
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.pdb
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\bin\Debug\netcoreapp3.1\LP4EL.Model.deps.json
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\bin\Debug\netcoreapp3.1\LP4EL.Model.dll
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\bin\Debug\netcoreapp3.1\LP4EL.Model.pdb
+C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.csproj.CoreCompileInputs.cache

@@ -12,6 +12,8 @@ namespace LP4EL.Data
 
 		private IUsuarioRepository usuarioRepository;
 
+		private IVagasRepository vagasRepository;
+
 		public UnitOfWork(ApplicationContext context)
 		{
 			this.Context = context;
@@ -24,6 +26,15 @@ namespace LP4EL.Data
 				if (this.usuarioRepository == null)
 					this.usuarioRepository = new UsuarioRepository(this.Context);
 				return this.usuarioRepository;
+			}
+		}
+			public IVagasRepository VagasRepository
+		{
+			get
+			{
+				if (this.vagasRepository == null)
+					this.vagasRepository = new VagasRepository(this.Context);
+				return this.vagasRepository;
 			}
 		}
 

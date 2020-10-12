@@ -7,6 +7,7 @@ namespace LP4EL.Model.Interfaces
 {
 	public interface IGenericRepository<TEntity> where TEntity : class
 	{
+
 		void Add(TEntity entity);
 		void AddRange(List<TEntity> list);
 		TEntity GetById(int id);
