@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {}
+    "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
+    "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
         "projectName": "LP4EL.Data",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Data\\obj\\",
+        "projectPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
+        "packagesPath": "C:\\Users\\Larissa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Larissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
+              "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
+                "projectPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
+    "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
         "projectName": "LP4EL.Model",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LP4EL\\LP4EL.Model\\obj\\",
+        "projectPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
+        "packagesPath": "C:\\Users\\Larissa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Larissa\\Documents\\UgoProjeto\\Projeto-LP4EL\\LP4EL.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Larissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,6 +107,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -122,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

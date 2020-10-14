@@ -9,5 +9,8 @@ namespace LP4EL.Model.Interfaces
         IUsuarioRepository UsuarioRepository { get; }
 
         bool SaveChanges();
+
+        IVagasRepository VagasRepository { get; }
+        
     }
 }

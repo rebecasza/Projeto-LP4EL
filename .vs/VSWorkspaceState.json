@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LP4EL.Data",
+    "\\LP4EL.Data\\Repositories",
+    "\\LP4EL.Model",
+    "\\LP4EL.Model\\Entities",
+    "\\LP4EL.Model\\Interfaces"
+  ],
+  "SelectedNode": "\\LP4EL.Model\\Interfaces\\IUsuarioRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
