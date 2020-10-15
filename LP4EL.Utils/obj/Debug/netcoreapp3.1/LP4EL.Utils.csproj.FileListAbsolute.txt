@@ -16,3 +16,12 @@ C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcor
 C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.dll
 C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.pdb
 C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.csproj.CoreCompileInputs.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\bin\Debug\netcoreapp3.1\LP4EL.Utils.deps.json
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\bin\Debug\netcoreapp3.1\LP4EL.Utils.dll
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\bin\Debug\netcoreapp3.1\LP4EL.Utils.pdb
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.csprojAssemblyReference.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.csproj.CoreCompileInputs.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.AssemblyInfoInputs.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.AssemblyInfo.cs
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.dll
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Utils\obj\Debug\netcoreapp3.1\LP4EL.Utils.pdb

@@ -24,7 +24,16 @@ namespace LP4EL.Business
 
         public IEnumerable<VagasDto> Filtrar()
         {
-            throw new System.NotImplementedException();
+            var query = this._unitOfWork
+                    .VagasRepository
+                    .Get(null, o => o. OrderBy(u => u.Titulo))
+                    .Select(s => new VagasDto
+                    {
+                        IdVaga = s.IdVaga,
+                        Titulo = s.Titulo,
+                        Descricao = s.Descricao
+                    });
+                return query.ToList();
         }
 
         public VagasDto Salvar(VagasDto vagasDto)
@@ -34,18 +43,16 @@ namespace LP4EL.Business
             if (vagasDto.IdVaga > 0)
             {
                 vaga = this._unitOfWork.VagasRepository.GetById(vagasDto.IdVaga);
-                vaga.Nome = vagasDto.Nome;
-                vaga.descricao = vagasDto.descricao;
-                vaga.NomeCandidato = vagasDto.NomeCandidato;
+                vaga.Titulo = vagasDto.Titulo;
+                vaga.Descricao = vagasDto.Descricao;
 
                 this._unitOfWork.VagasRepository.Update(vaga);
 
                 return new VagasDto
                 {
                     IdVaga = vaga.IdVaga,
-                    Nome = vaga.Nome,
-                    NomeCandidato = vaga.NomeCandidato,
-                    descricao = vaga.descricao
+                    Titulo = vaga.Titulo,
+                    Descricao = vaga.Descricao,
                 };
 
             }
@@ -66,10 +73,14 @@ namespace LP4EL.Business
             return new VagasDto
             {
                 IdVaga = vaga.IdVaga,
-                Nome = vaga.Nome,
-                descricao = vaga.descricao,
-                NomeCandidato = vaga.NomeCandidato
+                Titulo = vaga.Titulo,
+                Descricao = vaga.Descricao,
             };
+        }
+
+        ResultadoDto IVagasBusiness.Salvar(VagasDto vagas)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }  

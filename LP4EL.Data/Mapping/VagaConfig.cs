@@ -15,9 +15,9 @@ namespace LP4EL.Data.Mapping
 		{
 			builder.ToTable("Vagas");
 			builder.HasKey(t => t.IdVaga);
-			builder.Property(t => t.descricao);
-			builder.Property(t => t.Nome);
-			builder.Property(t => t.NomeCandidato);
+			builder.Property(t => t.IdVaga);
+			builder.Property(t => t.Titulo);
+			builder.Property(t => t.Descricao);
 			
 		}
 				
