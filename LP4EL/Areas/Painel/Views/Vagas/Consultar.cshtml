@@ -1,0 +1,37 @@
+﻿<link rel="stylesheet" href="~/css/site.css" />
+@model IEnumerable<LP4EL.Model.Dtos.VagasDto>
+@{
+    ViewData["Title"] = "Vagas";
+}
+@section Scripts
+{
+   <script src="~/js/Usuario/ConsultarUsuario.js" asp-append-version="true"></script>
+}
+<section class="grupoVagas">
+    <div class="container-fluid" id="container-vagas">
+        <div id="vagas">
+            @foreach (var vagas in Model)
+            {
+            <ul id="vagasul">
+                <li class="vg">
+                    <header class="clearfix">
+                        <div class="informacoes-header">
+                            <h2 class="cargo">
+                                @vagas.Titulo
+                            </h2>
+                        </div>
+                        <div class="descricao">
+                            @vagas.Descricao
+                        </div>
+                    </header>
+                    <footer>
+                        <span class="vaga-local">
+                            São Paulo
+                        </span>
+                    </footer>
+                </li>
+            </ul>
+            }
+        </div>
+     </div>
+</section>

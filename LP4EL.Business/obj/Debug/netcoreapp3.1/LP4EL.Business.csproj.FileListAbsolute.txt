@@ -26,3 +26,17 @@ C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Business\obj\Debug\net
 C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.dll
 C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.pdb
 C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.csproj.CoreCompileInputs.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Business.deps.json
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Business.dll
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Business.pdb
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Model.dll
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Utils.dll
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Model.pdb
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\bin\Debug\netcoreapp3.1\LP4EL.Utils.pdb
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.csprojAssemblyReference.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.csproj.CoreCompileInputs.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.AssemblyInfoInputs.cache
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.AssemblyInfo.cs
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.csproj.CopyComplete
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.dll
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Business\obj\Debug\netcoreapp3.1\LP4EL.Business.pdb

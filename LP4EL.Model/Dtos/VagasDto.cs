@@ -9,10 +9,8 @@ public class VagasDto
 
 {
 	public virtual int IdVaga { get; set; }
-	public virtual string Nome { get; set; }
-	public virtual string descricao { get; set; }
-	public virtual string NomeCandidato { get; set; }
-
-}
+	public virtual string Titulo { get; set; }
+	public virtual string Descricao { get; set; }
+    }
 }
 
