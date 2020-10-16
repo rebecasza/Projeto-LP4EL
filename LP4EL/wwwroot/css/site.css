@@ -66,9 +66,21 @@ ul {
 }
 
 .cargo {
-    color: #008817;
+    color: #498650;
+    font-size: 20px;
+    text-align: center;
 }
 
 #vagasul {
-    border: 5px solid grey;
+    border: 1px solid #d2d2d2bf;
+}
+
+.descricao {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 5px;
+    text-align: center;
 }
