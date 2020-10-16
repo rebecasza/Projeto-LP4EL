@@ -5,34 +5,34 @@
 }
 @section Scripts
 {
-   <script src="~/js/Usuario/ConsultarUsuario.js" asp-append-version="true"></script>
+    <script src="~/js/Usuario/ConsultarUsuario.js" asp-append-version="true"></script>
 }
+
 <section class="grupoVagas">
     <div class="container-fluid" id="container-vagas">
+        <p id="titulo-vagas">Veja agora as vagas disponíveis e os candidatos cadastrados!</p>
         <div id="vagas">
             @foreach (var vagas in Model)
-            {
-            <ul id="vagasul">
-                <li class="vg">
-                    <header class="clearfix">
-                        <div class="informacoes-header">
-                            <h2 class="cargo">
-                                @vagas.Titulo
-                            </h2>
-                        </div>
-                        <div class="descricao">
-                            @vagas.Descricao
-                        </div>
-                    </header>
-                    <footer>
-                        <span class="vaga-local">
-                            São Paulo
-                        </span>
-                    </footer>
-                </li>
-                <button type="button" class="btn btn-primary">Ver Candidatos Cadastrados</button>
-            </ul>
-            }
+             {
+                <ul id="vagasul">
+                    <li class="vg">
+                        <header class="clearfix">
+                            <div class="informacoes-header">
+                                <h2 class="cargo">
+                                    @vagas.Titulo
+                                </h2>
+                            </div>
+                            <div class="descricao">
+                                @vagas.Descricao
+                            </div>
+                            <span class="vaga-local">
+                                São Paulo
+                            </span>
+                            <button type="button" class="btn btn-secondary" id="botao-candidatos">Ver Candidatos Cadastrados</button>
+                        </header>
+                    </li>
+                </ul>
+             }
         </div>
-     </div>
+    </div>
 </section>
