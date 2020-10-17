@@ -1,0 +1,40 @@
+﻿@model LP4EL.Model.Dtos.CandidaturaDto
+@section Scripts
+    {
+    <script src="~/js/Usuario/SalvarUsuario.js" asp-append-version="true"></script>
+}
+
+<div class="row">
+    <div class="col">
+        <h2 class="display-4">@ViewData["Title"]</h2>
+    </div>
+</div>
+
+<div class="row mt-4 mb-4">
+    <div class="col">
+        <a class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="Consultar"><i class="fas fa-arrow-circle-left"></i> Voltar</a>
+        <a id="btn-salvar" class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="SalvarCandidatura"><i class="fas fa-plus-circle"></i> Cadastrar</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <form id="frm-usuario">
+            @Html.HiddenFor(model => model.IdVaga)
+            <div class="form-group row">
+                <label asp-for="IdVaga" class="col-sm-2 col-form-label">IdVaga</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.IdVaga, new { @class = "form-control", placeholder = "Id da Vaga" })
+                    @Html.ValidationMessageFor(model => model.IdVaga)
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="IdUsuario" class="col-sm-2 col-form-label">IdUsuario</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.IdUsuario, new { @class = "form-control", placeholder = "Id do Usuário" })
+                    @Html.ValidationMessageFor(model => model.IdUsuario)
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

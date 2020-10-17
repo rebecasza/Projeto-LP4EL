@@ -16,6 +16,9 @@ namespace LP4EL.Data
 		public DbSet<Usuario> Usuarios { get; set; }
 		public DbSet<Vagas> Vagas { get; set; }
 
+		public DbSet<Candidatura> Candidatura { get; set; }
+
+
 		public ApplicationContext(DbContextOptions<ApplicationContext> options, ILogger<ApplicationContext> logger)
 			: base(options)
 		{
@@ -27,6 +30,8 @@ namespace LP4EL.Data
 			_logger.Log(LogLevel.Information, "OnModelCreating...");
 			modelBuilder.ApplyConfiguration(new UsuarioConfig());
 			modelBuilder.ApplyConfiguration(new VagaConfig());
+			modelBuilder.ApplyConfiguration(new CandidaturaConfig());
+
 		}
 	}
 }

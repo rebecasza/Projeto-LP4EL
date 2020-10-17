@@ -19,9 +19,9 @@ C:\Users\Larissa\Documents\UgoProjeto\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcor
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\bin\Debug\netcoreapp3.1\LP4EL.Model.deps.json
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\bin\Debug\netcoreapp3.1\LP4EL.Model.dll
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\bin\Debug\netcoreapp3.1\LP4EL.Model.pdb
-C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.csprojAssemblyReference.cache
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.csproj.CoreCompileInputs.cache
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.AssemblyInfoInputs.cache
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.AssemblyInfo.cs
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.dll
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.pdb
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Model\obj\Debug\netcoreapp3.1\LP4EL.Model.csprojAssemblyReference.cache

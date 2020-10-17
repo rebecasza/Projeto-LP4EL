@@ -18,22 +18,22 @@ namespace LP4EL.Data.Repositories
 
         }
 
-        public void Add(Vagas entity)
+        public void Add(Candidatura entity)
         {
             throw new NotImplementedException();
         }
 
-        public void AddRange(List<Vagas> list)
+        public void AddRange(List<Candidatura> list)
         {
             throw new NotImplementedException();
         }
 
-        public bool Any(Expression<Func<Vagas, bool>> expression)
+        public bool Any(Expression<Func<Candidatura, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Vagas entity)
+        public void Delete(Candidatura entity)
         {
             throw new NotImplementedException();
         }
@@ -43,17 +43,17 @@ namespace LP4EL.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public IQueryable<Vagas> Get(Expression<Func<Vagas, bool>> expression = null, Func<IQueryable<Vagas>, IOrderedQueryable<Vagas>> orderby = null, string includes = "", bool noTracking = false)
+        public IQueryable<Candidatura> Get(Expression<Func<Vagas, bool>> expression = null, Func<IQueryable<Vagas>, IOrderedQueryable<Vagas>> orderby = null, string includes = "", bool noTracking = false)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Vagas entity)
+        public void Update(Candidatura entity)
         {
             throw new NotImplementedException();
         }
 
-        Vagas IGenericRepository<Vagas>.GetById(int id)
+        Candidatura IGenericRepository<Candidatura>.GetById(int id)
         {
             throw new NotImplementedException();
         }

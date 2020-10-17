@@ -62,6 +62,8 @@ namespace LP4EL
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUsuarioBusiness, UsuarioBusiness>();
             services.AddScoped<IVagasBusiness, VagasBusiness>();
+            services.AddScoped<ICandidaturaBusiness, CandidaturaBusiness>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

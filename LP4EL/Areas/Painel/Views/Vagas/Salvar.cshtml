@@ -1,0 +1,47 @@
+﻿@model LP4EL.Model.Dtos.VagasDto
+@section Scripts
+    {
+    <script src="~/js/Usuario/SalvarUsuario.js" asp-append-version="true"></script>
+}
+
+<div class="row">
+    <div class="col">
+        <h2 class="display-4">@ViewData["Title"]</h2>
+    </div>
+</div>
+
+<div class="row mt-4 mb-4">
+    <div class="col">
+        <a class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="Consultar"><i class="fas fa-arrow-circle-left"></i> Voltar</a>
+        <a id="btn-salvar" class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="Salvar"><i class="fas fa-plus-circle"></i> Cadastrar</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <form id="frm-usuario">
+            @Html.HiddenFor(model => model.IdVaga)
+            <div class="form-group row">
+                <label asp-for="Titulo" class="col-sm-2 col-form-label">Título</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.Titulo, new { @class = "form-control", placeholder = "Título da Vaga" })
+                    @Html.ValidationMessageFor(model => model.Titulo)
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Descricao" class="col-sm-2 col-form-label">Descricao</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.Descricao, new { @class = "form-control", placeholder = "Descrição da Vaga" })
+                    @Html.ValidationMessageFor(model => model.Descricao)
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Localizacao" class="col-sm-2 col-form-label">Localização</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.Localizacao, new { @class = "form-control", placeholder = "Localização da Vaga" })
+                    @Html.ValidationMessageFor(model => model.Localizacao)
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

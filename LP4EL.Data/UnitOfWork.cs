@@ -14,6 +14,8 @@ namespace LP4EL.Data
 
 		private IVagasRepository vagasRepository;
 
+		private ICandidaturaRepository candidaturaRepository;
+
 		public UnitOfWork(ApplicationContext context)
 		{
 			this.Context = context;
@@ -37,6 +39,18 @@ namespace LP4EL.Data
 				return this.vagasRepository;
 			}
 		}
+
+
+		public ICandidaturaRepository CandidaturaRepository
+		{
+			get
+			{
+				if (this.candidaturaRepository == null)
+					this.candidaturaRepository = new CandidaturaRepository(this.Context);
+				return this.candidaturaRepository;
+			}
+		}
+
 
 		public bool SaveChanges()
 		{

@@ -31,7 +31,8 @@ namespace LP4EL.Business
                     {
                         IdVaga = s.IdVaga,
                         Titulo = s.Titulo,
-                        Descricao = s.Descricao
+                        Descricao = s.Descricao,
+                        Localizacao = s.Localizacao
                     });
                 return query.ToList();
         }
@@ -45,6 +46,7 @@ namespace LP4EL.Business
                 vaga = this._unitOfWork.VagasRepository.GetById(vagasDto.IdVaga);
                 vaga.Titulo = vagasDto.Titulo;
                 vaga.Descricao = vagasDto.Descricao;
+                vaga.Localizacao = vagasDto.Localizacao;
 
                 this._unitOfWork.VagasRepository.Update(vaga);
 
@@ -53,6 +55,7 @@ namespace LP4EL.Business
                     IdVaga = vaga.IdVaga,
                     Titulo = vaga.Titulo,
                     Descricao = vaga.Descricao,
+                    Localizacao = vaga.Localizacao
                 };
 
             }
@@ -75,12 +78,43 @@ namespace LP4EL.Business
                 IdVaga = vaga.IdVaga,
                 Titulo = vaga.Titulo,
                 Descricao = vaga.Descricao,
+                Localizacao = vaga.Localizacao
             };
         }
 
-        ResultadoDto IVagasBusiness.Salvar(VagasDto vagas)
+        ResultadoDto IVagasBusiness.Salvar(VagasDto vagasDto)
         {
-            throw new System.NotImplementedException();
+            var vagas = new Vagas();
+
+            if (vagasDto.IdVaga > 0)
+            {
+                vagas = this._unitOfWork.VagasRepository.GetById(vagasDto.IdVaga);
+                vagas.Titulo = vagas.Titulo;
+                vagas.Descricao = vagas.Descricao;
+                vagas.Localizacao = vagas.Localizacao;
+
+                this._unitOfWork.VagasRepository.Update(vagas);
+            }
+            else
+
+            {
+
+                vagas = new Vagas();
+                vagas.Titulo = vagasDto.Titulo;
+                vagas.Descricao = vagasDto.Descricao;
+                vagas.Localizacao = vagasDto.Localizacao;
+
+                this._unitOfWork.VagasRepository.Add(vagas);
+            }
+
+            var sucesso = this._unitOfWork.SaveChanges();
+            var resultado = new ResultadoDto
+            {
+                Sucesso = sucesso,
+                Id = vagas.IdVaga
+            };
+
+            return resultado;
         }
     }
 }  

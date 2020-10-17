@@ -79,7 +79,8 @@ ul {
 }
 
 #vagasul {
-    border: 1px solid #6dad9194;
+    border: 1px solid #3C4142;
+    border-radius: 20px;
 }
 
 .descricao {
@@ -100,6 +101,7 @@ ul {
 
 #titulo-vagas{
     font-size: 20px;
+    text-align: center;
 }
 
 .btn-primary {
@@ -145,4 +147,34 @@ a.text-dark:hover, a.text-dark:focus {
 
 .dropdown-item {
    color: white!important;
+}
+
+.btn-primary:hover {
+    background-color: #13BBAF;
+    border-color: #13BBAF;
+}
+
+#consultar-usuario{
+    font-size: 40px;
+    text-align: center;
+}
+
+#novo-usuario{
+    font-size: 40px;
+    text-align: center;
+}
+
+#tabela-usuario {
+    background-color: #3C4142;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    color: white;
+}
+
+#botao-candidatos {
+    background-color: #13BBAF;
+    border-color: #13BBAF;
 }

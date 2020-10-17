@@ -5,7 +5,7 @@ using LP4EL.Model.Entities;
 
 namespace LP4EL.Model.Interfaces
 {
-    public interface ICandidaturaRepository : IGenericRepository<Vagas>
+    public interface ICandidaturaRepository : IGenericRepository<Candidatura>
     {
         
     }
