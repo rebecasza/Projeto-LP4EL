@@ -27,14 +27,14 @@ namespace LP4EL.Areas.Painel.Controllers
         public IActionResult Novo()
         {
             ViewData["Title"] = "Nova Candidatura";
-            return View("SalvarCandidatura", new CandidaturaDto());
+            return View("Salvar", new CandidaturaDto());
         }
 
         public IActionResult Editar(int id)
         {
             var candidatura = _candidaturaBusiness.Selecionar(id);
             ViewData["Title"] = "Editar Candidatura";
-            return View("SalvarCandidatura", candidatura);
+            return View("Salvar", candidatura);
         }
 
         [HttpPost]
@@ -45,7 +45,7 @@ namespace LP4EL.Areas.Painel.Controllers
             {
                 Sucesso = resultado.Sucesso,
                 Id = resultado.Id,
-                Url = Url.Action("Candidatar")
+                Url = Url.Action("Consultar")
             });
         }
 
@@ -55,7 +55,7 @@ namespace LP4EL.Areas.Painel.Controllers
             return Json(new ResultadoViewModel
             {
                 Sucesso = resultado.Sucesso,
-                Url = Url.Action("Candidatar")
+                Url = Url.Action("Consultar")
             });
         }
     }

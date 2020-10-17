@@ -12,8 +12,8 @@
 
 <div class="row mt-4 mb-4">
     <div class="col">
-        <a class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="Consultar"><i class="fas fa-arrow-circle-left"></i> Voltar</a>
-        <a id="btn-salvar" class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="Salvar"><i class="fas fa-plus-circle"></i> Cadastrar</a>
+        <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Consultar"><i class="fas fa-arrow-circle-left"></i> Voltar</a>
+        <a id="btn-salvar" class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Salvar"><i class="fas fa-plus-circle"></i> Salvar</a>
     </div>
 </div>
 
@@ -22,10 +22,10 @@
         <form id="frm-usuario">
             @Html.HiddenFor(model => model.IdCandidatura)
             <div class="form-group row">
-                <label asp-for="IdVaga" class="col-sm-2 col-form-label">IdVaga</label>
+                <label asp-for="IdUsuario" class="col-sm-2 col-form-label">Id Usuario</label>
                 <div class="col-sm-10">
-                    @Html.TextBoxFor(model => model.IdVaga, new { @class = "form-control", placeholder = "Vaga" })
-                    @Html.ValidationMessageFor(model => model.IdVaga)
+                    @Html.TextBoxFor(model => model.IdUsuario, new { @class = "form-control", placeholder = "Id Usuario" })
+                    @Html.ValidationMessageFor(model => model.IdUsuario)
                 </div>
             </div>
         </form>

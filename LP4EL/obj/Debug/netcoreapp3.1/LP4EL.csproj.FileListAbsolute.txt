@@ -307,6 +307,6 @@ C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\LP4
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Vagas\Consultar.cshtml.g.cs
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Vagas\Novo.cshtml.g.cs
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Vagas\Salvar.cshtml.g.cs
-C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Vagas\Cadastrar.cshtml.g.cs
-C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Vagas\NovoCandidatura.cshtml.g.cs
-C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Vagas\SalvarCandidatura.cshtml.g.cs
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Candidatura\Consultar.cshtml.g.cs
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Candidatura\Novo.cshtml.g.cs
+C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL\obj\Debug\netcoreapp3.1\Razor\Areas\Painel\Views\Candidatura\Salvar.cshtml.g.cs

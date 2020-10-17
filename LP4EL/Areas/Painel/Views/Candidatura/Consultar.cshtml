@@ -1,0 +1,51 @@
+﻿<link rel="stylesheet" href="~/css/site.css" />
+
+@model IEnumerable<LP4EL.Model.Dtos.CandidaturaDto>
+@{
+    ViewData["Title"] = "Candidaturas";
+}
+@section Scripts
+{
+    <script src="~/js/Usuario/ConsultarUsuario.js" asp-append-version="true"></script>
+}
+
+<div class="row">
+    <div class="col">
+        <h2 class="display-4" id="consultar-usuario">Consultar Candidaturas</h2>
+    </div>
+</div>
+
+<div class="row mt-4 mb-4">
+    <div class="col">
+        <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Novo"><i class="fas fa-plus-circle"></i>Cadastre uma nova candidatura</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <table class="table table-striped table-bordered table-hover">
+            <thead id="tabela-usuario">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Id Candidatura</th>
+                    <th scope="col">Id Usuario</th>
+                    <th scope="col">Id Vaga</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">
+                            <a class="btn btn-info btn-sm" asp-area="Painel" asp-controller="Candidatura" asp-action="Editar" asp-route-id="@item.IdCandidatura"><i class="fas fa-pen-alt"></i>Editar</a>
+                            <a data-title="Exclusão" data-message="Deseja realmente excluir?" class="btn btn-danger btn-sm btn-delete" asp-area="Painel" asp-controller="Candidatura" asp-action="Excluir" asp-route-id="@item.IdUsuario"><i class="fas fa-trash-alt"></i>Excluir</a>
+                        </th>
+                        <td>@item.IdCandidatura</td>
+                        <td>@item.IdUsuario</td>
+                        <td>@item.IdVaga</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
