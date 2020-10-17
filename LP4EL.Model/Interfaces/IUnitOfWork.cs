@@ -11,6 +11,9 @@ namespace LP4EL.Model.Interfaces
         bool SaveChanges();
 
         IVagasRepository VagasRepository { get; }
-        
+
+        ICandidaturaRepository CandidaturaRepository { get; }
+
+
     }
 }

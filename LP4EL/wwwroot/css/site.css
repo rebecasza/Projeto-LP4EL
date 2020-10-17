@@ -1,11 +1,17 @@
 ﻿﻿ /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 a.navbar-brand {
-    white-space: normal;
     text-align: center;
     word-break: break-all;
 }
 
+.navbar-light .navbar-brand {
+    color: white;
+
+}
+.navbar {
+    background-color: #3C4142;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -45,6 +51,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-color: #dbbceaa3;
 }
 
 .footer {
@@ -66,9 +73,108 @@ ul {
 }
 
 .cargo {
-    color: #008817;
+    color: #498650;
+    font-size: 20px;
+    text-align: center;
 }
 
 #vagasul {
-    border: 5px solid grey;
+    border: 1px solid #3C4142;
+    border-radius: 20px;
+}
+
+.descricao {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#botao-candidatos {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#titulo-vagas{
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #13BBAF;
+    border-color: #13BBAF;
+}
+
+#autenticar{
+    text-align: center;
+}
+
+.offset-4 {
+    margin-top: 5%;
+}
+
+#ifvagas{
+    color: white;
+}
+
+.text-dark {
+    color: #b2fffa !important;
+}
+
+a.text-dark:hover, a.text-dark:focus {
+    color: #e7d4f1 !important;
+}
+
+.dropdown-menu.show {
+    background-color: #3c4142;
+}
+
+.dropdown-menu.show:hover {
+    background-color: #3c4142;
+}
+
+.dropdown-item:hover {
+    background-color: #7b9398;
+}
+#text{
+    color: white;
+}
+
+.dropdown-item {
+   color: white!important;
+}
+
+.btn-primary:hover {
+    background-color: #13BBAF;
+    border-color: #13BBAF;
+}
+
+#consultar-usuario{
+    font-size: 40px;
+    text-align: center;
+}
+
+#novo-usuario{
+    font-size: 40px;
+    text-align: center;
+}
+
+#tabela-usuario {
+    background-color: #3C4142;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    color: white;
+}
+
+#botao-candidatos {
+    background-color: #13BBAF;
+    border-color: #13BBAF;
 }

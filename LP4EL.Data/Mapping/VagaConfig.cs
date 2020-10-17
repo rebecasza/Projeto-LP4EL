@@ -18,10 +18,11 @@ namespace LP4EL.Data.Mapping
 			builder.Property(t => t.IdVaga);
 			builder.Property(t => t.Titulo);
 			builder.Property(t => t.Descricao);
-			
-		}
-				
+			builder.Property(t => t.Localizacao);
 
-    
-    }
+		}
+
+
+
+	}
 }

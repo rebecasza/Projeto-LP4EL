@@ -10,6 +10,7 @@ namespace LP4EL.Model.Entities
         public virtual int IdVaga { get; set; }
         public virtual string Descricao { get; set; }
         public virtual string Titulo { get; set; }
+        public virtual string Localizacao { get; set; }
 
     }
 

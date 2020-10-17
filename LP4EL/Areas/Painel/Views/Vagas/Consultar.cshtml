@@ -1,37 +1,47 @@
 ﻿<link rel="stylesheet" href="~/css/site.css" />
 @model IEnumerable<LP4EL.Model.Dtos.VagasDto>
+
 @{
     ViewData["Title"] = "Vagas";
 }
 @section Scripts
 {
-   <script src="~/js/Usuario/ConsultarUsuario.js" asp-append-version="true"></script>
+    <script src="~/js/Usuario/ConsultarUsuario.js" asp-append-version="true"></script>
 }
+
 <section class="grupoVagas">
     <div class="container-fluid" id="container-vagas">
+
+        <div class="row mt-4 mb-4">
+            <div class="col">
+                <a class="btn btn-primary" asp-area="Painel" asp-controller="Vagas" asp-action="Novo"><i class="fas fa-plus-circle"></i>Cadastre uma nova vaga</a>
+            </div>
+        </div>
+
+        <p id="titulo-vagas">Veja agora as vagas disponíveis e os candidatos cadastrados!</p>
         <div id="vagas">
             @foreach (var vagas in Model)
             {
-            <ul id="vagasul">
-                <li class="vg">
-                    <header class="clearfix">
-                        <div class="informacoes-header">
-                            <h2 class="cargo">
-                                @vagas.Titulo
-                            </h2>
-                        </div>
-                        <div class="descricao">
-                            @vagas.Descricao
-                        </div>
-                    </header>
-                    <footer>
-                        <span class="vaga-local">
-                            São Paulo
-                        </span>
-                    </footer>
-                </li>
-            </ul>
+                <ul id="vagasul">
+                    <li class="vg">
+                        <header class="clearfix">
+                            <div class="informacoes-header">
+                                <h2 class="cargo">
+                                    @vagas.Titulo
+                                </h2>
+                            </div>
+                            <div class="descricao">
+                                @vagas.Descricao
+                            </div>
+                            <span class="vaga-local">
+                                @vagas.Localizacao
+                            </span>
+                            <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Consultar"><i class="fas fa-plus-circle"></i>Ver Candidatos Cadastrados</a>
+                            <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Novo" asp-route-id="@vagas.IdVaga"><i class="fas fa-plus-circle"></i>Cadastre Um Candidato</a>
+                        </header>
+                    </li>
+                </ul>
             }
         </div>
-     </div>
+    </div>
 </section>
