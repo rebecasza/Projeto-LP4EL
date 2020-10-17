@@ -80,6 +80,7 @@ namespace LP4EL.Business
             };
         }
 
+
         ResultadoDto ICandidaturaBusiness.Salvar(CandidaturaDto candidaturaDto)
         {
             var candidatura = new Candidatura();
@@ -87,9 +88,9 @@ namespace LP4EL.Business
             if (candidaturaDto.IdCandidatura > 0)
             {
                 candidatura = this._unitOfWork.CandidaturaRepository.GetById(candidaturaDto.IdCandidatura);
-                candidatura.IdUsuario = candidatura.IdUsuario;
-                candidatura.IdVaga = candidatura.IdVaga;
-
+                candidatura.IdUsuario = candidaturaDto.IdUsuario;
+                candidatura.IdVaga = candidaturaDto.IdVaga;
+                
                 this._unitOfWork.CandidaturaRepository.Update(candidatura);
             }
             else
@@ -97,8 +98,8 @@ namespace LP4EL.Business
             {
 
                 candidatura = new Candidatura();
-                candidatura.IdUsuario = candidatura.IdUsuario;
-                candidatura.IdVaga = candidatura.IdVaga;
+                candidatura.IdUsuario = candidaturaDto.IdUsuario;
+                candidatura.IdVaga = candidaturaDto.IdVaga;
 
 
                 this._unitOfWork.CandidaturaRepository.Add(candidatura);

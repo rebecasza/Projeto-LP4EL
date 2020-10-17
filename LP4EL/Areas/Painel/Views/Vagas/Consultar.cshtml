@@ -36,8 +36,8 @@
                             <span class="vaga-local">
                                 @vagas.Localizacao
                             </span>
-                            <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Salvar"><i class="fas fa-plus-circle"></i>Ver Candidatos Cadastrados</a>
-                            <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Novo"><i class="fas fa-plus-circle"></i>Cadastre Um Candidato</a>
+                            <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Consultar"><i class="fas fa-plus-circle"></i>Ver Candidatos Cadastrados</a>
+                            <a class="btn btn-primary" asp-area="Painel" asp-controller="Candidatura" asp-action="Novo" asp-route-id="@vagas.IdVaga"><i class="fas fa-plus-circle"></i>Cadastre Um Candidato</a>
                         </header>
                     </li>
                 </ul>
