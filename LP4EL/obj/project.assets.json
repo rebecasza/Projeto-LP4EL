@@ -5581,19 +5581,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\becas\\.nuget\\packages\\": {}
+    "C:\\Users\\ErikaGarciadaSilva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj",
+      "projectUniqueName": "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj",
       "projectName": "LP4EL",
-      "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj",
-      "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\obj\\",
+      "projectPath": "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj",
+      "packagesPath": "C:\\Users\\ErikaGarciadaSilva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ErikaGarciadaSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5606,14 +5606,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj": {
-              "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj"
+            "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj": {
+              "projectPath": "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj"
             },
-            "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
-              "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj"
+            "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
+              "projectPath": "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj"
             },
-            "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
-              "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
+            "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
+              "projectPath": "C:\\Users\\ErikaGarciadaSilva\\Desktop\\final-projeto\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
             }
           }
         }
@@ -5654,7 +5654,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

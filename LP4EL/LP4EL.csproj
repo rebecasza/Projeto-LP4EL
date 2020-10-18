@@ -26,4 +26,6 @@
     <ProjectReference Include="..\LP4EL.Model\LP4EL.Model.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
 </Project>

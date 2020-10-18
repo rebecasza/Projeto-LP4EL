@@ -6,16 +6,18 @@
             var href = $(this).attr('href');
             var data = $('#frm-usuario').serialize();
             $.post(href, data, function (result) {
-                console.log("success");
-                if (result.sucesso)
-                    bootbox.alert('Registro salvo com sucesso!', function () {
+                console.log(data);
+                if (result.sucesso) {
+                    alert('Registro salvo com sucesso!', function () {
                         window.location.href = result.url;
                     });
+                    window.location.reload(true);
+                }
                 else
-                    bootbox.alert('Não foi possível salvar o registro.');
+                    alert('Não foi possível salvar o registro.');
             })
                 .fail(function (e) {
-                    bootbox.alert(e);
+                    alert(e);
                 });
 
             return false;

@@ -7,7 +7,18 @@
             var message = $(this).data('message');
             var href = $(this).attr('href');
 
-            bootbox.dialog({
+            $.get(href, function (result) {
+                if (result.sucesso) {
+                    alert('Registro excluido com sucesso!', function () {
+                        window.location.href = result.url;
+                    });
+                    window.location.reload(true);
+                }
+                else
+                    alert('Não foi possível excluir o registro.');
+            });
+
+            /*bootbox.dialog({ 
                 title: title,
                 message: message,
                 size: 'large',
@@ -23,18 +34,11 @@
                         label: "Sim",
                         className: 'btn-primary',
                         callback: function () {
-                            $.get(href, function (result) {
-                                if (result.sucesso)
-                                    bootbox.alert('Registro excluido com sucesso!', function () {
-                                        window.location.href = result.url;
-                                    });
-                                else
-                                    bootbox.alert('Não foi possível excluir o registro.');
-                            });
+                            
                         }
                     }
                 }
-            });
+            });*/
             return false;
         });
 
