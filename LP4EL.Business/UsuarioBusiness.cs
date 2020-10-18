@@ -24,7 +24,7 @@ namespace LP4EL.Business
                     .FirstOrDefault();
 
                 if (!SecurityManager.Validate(loginDto.Senha, usuario.Salt, usuario.Hash))
-                    return null;
+                   return null;
 
                 return new UsuarioDto
                 {

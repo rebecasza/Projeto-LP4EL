@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj": {}
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL\\LP4EL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Business\\LP4EL.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Business\\LP4EL.Business.csproj",
         "projectName": "LP4EL.Business",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Business\\LP4EL.Business.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,11 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj"
               },
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Utils\\LP4EL.Utils.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Utils\\LP4EL.Utils.csproj"
               }
             }
           }
@@ -69,22 +73,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj",
         "projectName": "LP4EL.Data",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -96,8 +104,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj"
               }
             }
           }
@@ -139,22 +147,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj",
         "projectName": "LP4EL.Model",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -197,22 +209,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Utils\\LP4EL.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Utils\\LP4EL.Utils.csproj",
         "projectName": "LP4EL.Utils",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Utils\\LP4EL.Utils.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Utils\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Utils\\LP4EL.Utils.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Utils\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -259,22 +275,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL\\LP4EL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL\\LP4EL.csproj",
         "projectName": "LP4EL",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\LP4EL.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL\\LP4EL.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -286,14 +306,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Business\\LP4EL.Business.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Business\\LP4EL.Business.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Business\\LP4EL.Business.csproj"
               },
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj"
               },
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj"
               }
             }
           }
@@ -314,6 +334,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
@@ -334,7 +360,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

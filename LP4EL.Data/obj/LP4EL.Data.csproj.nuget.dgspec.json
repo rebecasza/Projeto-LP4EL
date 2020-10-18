@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {}
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj",
         "projectName": "LP4EL.Data",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\LP4EL.Data.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Data\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\LP4EL.Data.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
-                "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj"
+              "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj": {
+                "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj"
               }
             }
           }
@@ -70,22 +74,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj": {
+    "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj",
         "projectName": "LP4EL.Model",
-        "projectPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\LP4EL.Model.csproj",
-        "packagesPath": "C:\\Users\\becas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\becas\\Desktop\\LINGUAGEM\\Projeto-LP4EL\\LP4EL.Model\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\LP4EL.Model.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Desktop\\ugo_git3\\LP4EL.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\becas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -128,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

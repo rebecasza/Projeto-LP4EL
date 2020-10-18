@@ -34,3 +34,15 @@ C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Data\obj\Debug\netcoreapp3.
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.csproj.CopyComplete
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.dll
 C:\Users\becas\Desktop\LINGUAGEM\Projeto-LP4EL\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.pdb
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\bin\Debug\netcoreapp3.1\LP4EL.Data.deps.json
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\bin\Debug\netcoreapp3.1\LP4EL.Data.dll
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\bin\Debug\netcoreapp3.1\LP4EL.Data.pdb
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\bin\Debug\netcoreapp3.1\LP4EL.Model.dll
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\bin\Debug\netcoreapp3.1\LP4EL.Model.pdb
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.csprojAssemblyReference.cache
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.AssemblyInfoInputs.cache
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.AssemblyInfo.cs
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.csproj.CoreCompileInputs.cache
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.csproj.CopyComplete
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.dll
+C:\Users\natal\Desktop\ugo_git3\LP4EL.Data\obj\Debug\netcoreapp3.1\LP4EL.Data.pdb
