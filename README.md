@@ -7,7 +7,10 @@ A aplicação permite que empresas cadastrem vagas de emprego e usuários, e ins
 
 Membros da equipe:
 REBECA DE SOUZA DOS SANTOS - SP3013341
+
 ERIKA GARCIA DA SILVA - SP3013383
+
 NATALIA HARUMI NAVARENO NISHIMURA - SP3013413
+
 LARISSA BARBOSA DE CARVALHO - SP3013375
 
