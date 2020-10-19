@@ -6,6 +6,7 @@ Aplicação utiliza também arquitetura em camadas, separadas em business, data,
 A aplicação permite que empresas cadastrem vagas de emprego e usuários, e inscrevam os candidatos para as respectivas vagas. Quanto as vagas e candidatos também é possível excluir e editar.
 
 Membros da equipe:
+
 REBECA DE SOUZA DOS SANTOS - SP3013341
 
 ERIKA GARCIA DA SILVA - SP3013383
